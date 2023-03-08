@@ -1,0 +1,52 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif; /*fontes*/
+    background-color: white; /*cor de fundo*/
+    color: black; /*cor da fonte*/
+
+    /*alinhamento de margem*/
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+ /*padronização de titulos*/
+.titulo{
+
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+ /*padronização de subtitulos*/
+.sub{
+
+    font-size: 27px;
+    font-weight: bolder;
+
+}
+
+/*justifica todos os textos na tag p*/
+p{
+
+    text-align: justify;
+
+}
+
+/*adiciona bordas nas imagens*/
+img{
+
+    border-radius: 10%;
+    border: 5px solid;
+
+}
+
+/*cor de fundo no texto*/
+.grifar{
+
+    background-color: black; /*cor que você quer grifar*/
+    color: aliceblue; /*cor de fundo no texto precisa ser oposta*/
+}
