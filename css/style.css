@@ -1,30 +1,48 @@
-body{
+*{  /*resetar o navegador*/
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{ 
 
     font-family: Arial, Helvetica, sans-serif; /*fontes*/
-    background-color: white; /*cor de fundo*/
     color: black; /*cor da fonte*/
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
 
+
+}
+
+
+body{
+
+    
+    background-color: white; /*cor de fundo*/
+    
     /*alinhamento de margem*/
-
-    margin-left: 5%;
-    margin-right: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
 
 }
 
+
  /*padronização de titulos*/
 .titulo{
 
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: bold;
+    
 
 }
 
  /*padronização de subtitulos*/
 .sub{
 
-    font-size: 27px;
+    font-size: 2,7rem;
     font-weight: bolder;
 
 }
@@ -33,6 +51,8 @@ body{
 p{
 
     text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
 
 }
 
@@ -40,7 +60,9 @@ p{
 img{
 
     border-radius: 10%;
-    border: 5px solid;
+    border: 0.2rem solid;
+    margin-left: 5%;
+    margin-right: 5%;
 
 }
 
@@ -49,4 +71,11 @@ img{
 
     background-color: black; /*cor que você quer grifar*/
     color: aliceblue; /*cor de fundo no texto precisa ser oposta*/
+}
+
+
+span{
+
+    margin-left: 5%;
+    margin-right: 5%;
 }
